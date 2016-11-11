@@ -8,17 +8,17 @@ Get Jenkins variables for gulp
 var jenkinsVars = require('jenkins-vars')
 
 jenkinsVars.gitBranch(function (str) {
-  console.log('short', str)
+  console.log('branch', str)
   // => /origin/develop
 })
 
 jenkinsVars.gitCommit(function (str) {
-  console.log('long', str)
+  console.log('commit', str)
   // => ce9a3c1404e8c91be604088670e93434c4253f03
 })
 
 jenkinsVars.buildNumber(function (str) {
-  console.log('long', str)
+  console.log('build', str)
   // => 1
 })
 
