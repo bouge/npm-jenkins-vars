@@ -5,7 +5,7 @@ Get Jenkins variables for gulp
 # Example
 
 ``` js
-var jenkinsVars = require('../')
+var jenkinsVars = require('jenkins-vars')
 
 jenkinsVars.gitBranch(function (str) {
   console.log('short', str)
@@ -32,7 +32,7 @@ jenkinsVars.jobName(function (str) {
 # Methods
 
 ``` js 
-var jenkinsVars = require('../')
+var jenkinsVars = require('jenkins-vars')
 ```
 
 ## .buildNumber(function (build) { ... })
