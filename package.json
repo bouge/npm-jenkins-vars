@@ -1,6 +1,6 @@
 {
   "name": "jenkins-vars",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Expose Jenkins variables for Gulp builds in Jenkins",
   "main": "index.js",
   "scripts": {
